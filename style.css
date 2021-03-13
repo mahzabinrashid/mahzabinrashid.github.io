@@ -124,7 +124,7 @@ h1:after {
 }
 
 .anav-links a:hover {
-    color: pink;
+    color: #E50062;
 }
 
 .burger {
@@ -213,7 +213,6 @@ h1:after {
     height: 100vh;
     color: black;
     min-height: 500px;
-    background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -268,12 +267,6 @@ button {
     font: inherit;
     cursor: pointer;
     outline: inherit;
-}
-
-@media (max-width: 640px) {
-    .home {
-        background-size: initial;
-    }
 }
 
 @media (max-width: 1300px) {
