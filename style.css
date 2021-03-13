@@ -213,6 +213,7 @@ h1:after {
     height: 100vh;
     color: black;
     min-height: 500px;
+    background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
