@@ -95,12 +95,14 @@ h1:after {
 }
 
 .anavbar.sticky {
-    background: #E50062;
+    background-image: linear-gradient(45deg, #add4f1 0%, #eba2ad 100%);
 }
 
 .logo {
     letter-spacing: 2px;
     font-weight: bold;
+    font-size: 20px;
+    ;
 }
 
 .anav-links {
@@ -143,7 +145,7 @@ h1:after {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body {
         overflow-x: hidden;
     }
@@ -207,7 +209,7 @@ h1:after {
 
 .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.png") no-repeat center;
     height: 100vh;
     color: black;
     min-height: 500px;
@@ -949,7 +951,7 @@ exp {
 /* footer styling */
 
 footer {
-    background-image: linear-gradient(-45deg, #5fc3e4 0%, #e55d87 100%);
+    background: #E50062;
     text-align: center;
     padding-bottom: 45px;
     padding-top: 45px;
@@ -969,6 +971,6 @@ footer {
 .fa-linkedin:hover,
 .fa-github:hover,
 .fa-envelope:hover {
-    background-color: #F45B69;
+    background-color: #C8E1F4;
     text-decoration: none;
 }
